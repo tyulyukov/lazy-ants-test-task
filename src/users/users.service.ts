@@ -36,6 +36,6 @@ export class UsersService {
 
   private async hashPassword(password: string): Promise<string> {
     const saltRounds = this.config.get('PASSWORD_SALT', { infer: true });
-    return bcrypt.hash(password, saltRounds);
+    return await bcrypt.hash(password, saltRounds);
   }
 }

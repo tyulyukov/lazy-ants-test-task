@@ -17,12 +17,12 @@
     "test:e2e": "jest --config e2e/jest-e2e.json"
   },
   "_moduleAliases": {
-    "@": "./dist/src",
-    "@core": "./dist/src/core",
-    "@common": "./dist/src/common",
-    "@env": "./dist/src/common/config/env",
-    "@constants": "./dist/src/constants",
-    "@enums": "./dist/src/enums"
+    "@": "./dist",
+    "@core": "./dist/core",
+    "@common": "./dist/common",
+    "@env": "./dist/core/config/env",
+    "@constants": "./dist/core/constants",
+    "@enums": "./dist/core/enums"
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",

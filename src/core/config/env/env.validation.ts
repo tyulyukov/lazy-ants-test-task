@@ -4,7 +4,8 @@ import { IsEnum, IsNotEmpty, IsNumber, IsPositive, IsString, Max, Min, validateS
 export enum Environment {
   DEVELOPMENT = 'development',
   PRODUCTION = 'production',
-  LOCAL = 'local'
+  LOCAL = 'local',
+  TEST = 'test'
 }
 
 export class EnvironmentVariables {
