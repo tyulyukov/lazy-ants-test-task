@@ -7,11 +7,12 @@ Main features:
 - Authorization with JWT (sign-in, sign-up for the user)
 - PostgreSQL database with Sequelize ORM (including migrations)
 - Full swagger support (go to /swagger)
+- E2E tests
+- Cloud deployment with Docker on AWS
 
 Plans for:
-- E2E tests
 - Request caching using Redis
-- Cloud deployment with CI/CD
+- CI/CD
 
 ## Installation
 
